@@ -1,0 +1,13 @@
+
+<hibernate-mapping default-cascade="none" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="com.src.Customer" table="Customer">
+    <id name="cid" >
+      <generator class="assigned" />
+    </id>
+    
+    <property name="cname"></property>
+    <property name="cadd"></property>
+    <property name="emailid"></property>
+    
+  </class>
+</hibernate-mapping>
